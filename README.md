@@ -1,8 +1,22 @@
 # Nigeria Uniform Bank Account Number (NUBAN)
 
-This is an easy to use PHP package for verifying and generating NUBAN numbers for all Nigerian financial institutions in accordance with the CBN revised standard 2020.
+This is an easy to use PHP package to help businesses to verify and generate NUBAN numbers for any Nigerian financial institution in accordance with the CBN revised standard 2020.
 
 There are two categories of financial institutions, Deposit Money Banks (DMB) with 3 digit bank code, and Other Financial Institutions (OFI) with 5 digit bank code. The account number to validate must be 10 digits, while serial number for account number generation must be 9 digits.
+
+## Installation
+
+To install this package, using your terminal interface, go to your project directory by running
+
+> 'cd ~/your/project/directory'
+
+To confirm present directory, run
+
+> 'pwd'
+
+Download the package using composer by running
+
+> 'composer require emyu/nuban'
 
 ## How to use
 
