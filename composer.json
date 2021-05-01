@@ -1,0 +1,26 @@
+{
+    "name": "emyu/nuban",
+    "description": "A PHP/laravel package for validating and generating nigerian nuban account numbers based CBN guidelines 2021",
+    "type": "library",
+    "keywords": ["nuban", "nigerian banks", "central bank of nigeria"],
+    "authors": [
+        {
+            "name": "Umar Madugu",
+            "email": "madugu01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "Emyu\\Nuban\\": "src"
+    }
+},
+    "autoload-dev": {
+    "psr-4": {
+      "Emyu\\Nuban\\Tests\\": "tests"
+    }
+}
+}
